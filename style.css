@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(228, 226, 226);
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(84, 83, 83);
+    text-align: center;
+}
