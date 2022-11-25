@@ -1,0 +1,67 @@
+/*importisin uue fondi*/
+@import url('https://fonts.cdnfonts.com/css/sabon');
+
+body {
+    background-color: rgb(118, 176, 211);
+}
+
+h1 {
+    font-family: "Sabon", sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Sabon", sans-serif;
+    text-align: center;
+    font-size: medium;
+}
+
+p {
+    font-family: "Sabon", sans-serif;
+    color: rgb(84, 83, 83);
+    text-align: center;
+}
+
+/*see on taustaks lehekülje tekstile*/
+.valge-kast {
+    background-color: white;
+    color: black;
+    padding: 5%;
+    margin: 4%;
+}
+
+/*lingid-nupud*/
+a:hover, a:active {
+    background-color: rgb(255, 128, 0);
+}
+
+a:link, a:visited {
+    background-color: rgb(249, 161, 80);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    align-self: center;
+    display: block;
+    font-family: "Sabon", sans-serif;  
+}
+
+/*pildid*/
+.taks {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*vahed teksti ja piltide vahel*/
+.br1 {
+    margin: 2%;
+}
+.br2 {
+    margin: 4%;
+}
