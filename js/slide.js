@@ -12,6 +12,15 @@
 
         changeSlide(); //Alusta slaidide vahetamist
 
+//Kuidas panna pilte:
+//1. Lisa pildid assets/imgs/nimi alla
+//2. Lisa rida 4.st algavale if, else ifi enda elemendi alla pildid (vaata tom-slide näidet), näiteks:
+// images[0] = 'assets/imgs/Mia/Pilt.jpg';
+//3. Seejärel oma htmlil selline asi, kui seda juba ei ole:
+//<div id="mia-slide"> NB! See peab matchima üleval oleva elementid'ga (e.g tom-slide, mia-slide, merlin-slide)
+//<img id="slide" width="800" height="800" src="" alt="">
+//</div>
+//4. Vaata üle et HTML headis on "<script src="js/slide.js" defer></script>"
 
 
 function changeSlide() {
