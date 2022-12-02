@@ -54,7 +54,7 @@ a:link, a:visited {
 }
 .clearfix::after {
     content: "";
-    clear: both;
+    clear: both; /* Seda ei kasutata hetkel */
     display: table;
 }
 
