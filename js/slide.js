@@ -1,9 +1,17 @@
     var i = 0 // Alguspunkt
     var images = [] //Piltide list
     var time = 1000 * 6; //Millisekundites aeg millal pilte vahetada. 1 sekund = 1000 millisekundit
+
+
     if (document.getElementById("tom-slide") != null) { //Kui on Thomase slaidid siis vali need pildid
         images[0] = 'assets/imgs/Thomas/Simba1.jpg';
         images[1] = 'assets/imgs/Thomas/Simba2.jpg';
+        images[2] = 'assets/imgs/Thomas/Tripsu1.jpg';
+        images[3] = 'assets/imgs/Thomas/Tripsu2.jpg';
+        images[4] = 'assets/imgs/Thomas/Trispu3.jpg';
+        images[5] = 'assets/imgs/Thomas/Tripsu4.jpg';
+
+
     } else if (document.getElementById("mia-slide") != null) { //Kui on Mia slaidid siis vali need pildid
         //images[0] = 'todo';
     } else if (document.getElementById("merlin-slide") != null) { //Kui on Merlini slaidid siis vali need pildid
