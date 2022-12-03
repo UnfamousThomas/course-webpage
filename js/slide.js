@@ -13,7 +13,9 @@
 
 
     } else if (document.getElementById("mia-slide") != null) { //Kui on Mia slaidid siis vali need pildid
-        //images[0] = 'todo';
+        images[0] = 'assets/imgs/Mia/IMG_0112.jpg';
+        images[1] = 'assets/imgs/Mia/IMG_0746 2.jpg';
+        images[2] = 'assets/imgs/Mia/IMG_4135.jpg';
     } else if (document.getElementById("merlin-slide") != null) { //Kui on Merlini slaidid siis vali need pildid
         //images[0] = 'todo';
     }
