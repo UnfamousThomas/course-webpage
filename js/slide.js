@@ -4,20 +4,23 @@
 
 
     if (document.getElementById("tom-slide") != null) { //Kui on Thomase slaidid siis vali need pildid
-        images[0] = 'assets/imgs/Thomas/Simba1.jpg';
-        images[1] = 'assets/imgs/Thomas/Simba2.jpg';
-        images[2] = 'assets/imgs/Thomas/Tripsu1.jpg';
-        images[3] = 'assets/imgs/Thomas/Tripsu2.jpg';
-        images[4] = 'assets/imgs/Thomas/Trispu3.jpg';
-        images[5] = 'assets/imgs/Thomas/Tripsu4.jpg';
-
-
+        var source = 'assets/imgs/Thomas/'
+        images[0] = source + 'Simba1.jpg';
+        images[1] = source + 'Simba2.jpg';
+        images[2] = source + 'Tripsu1.jpg';
+        images[3] = source + 'Tripsu2.jpg';
+        images[4] = source + 'Trispu3.jpg';
+        images[5] = source + 'Tripsu4.jpg';
     } else if (document.getElementById("mia-slide") != null) { //Kui on Mia slaidid siis vali need pildid
         images[0] = 'assets/imgs/Mia/IMG_0112.jpg';
         images[1] = 'assets/imgs/Mia/IMG_0746 2.jpg';
         images[2] = 'assets/imgs/Mia/IMG_4135.jpg';
     } else if (document.getElementById("merlin-slide") != null) { //Kui on Merlini slaidid siis vali need pildid
-        //images[0] = 'todo';
+        var source = 'assets/imgs/Merlin/'
+        images[0] = source + 'cleo.jpeg'
+        images[1] = source + 'kity.jpeg'
+        images[2] = source + 'koos.jpeg'
+        images[3] = source + 'nurr.jpeg'
     }
 
         changeSlide(); //Alusta slaidide vahetamist

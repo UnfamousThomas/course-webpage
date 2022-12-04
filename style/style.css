@@ -45,6 +45,16 @@ a:link, a:visited {
     font-family: "Sabon", sans-serif;  
 }
 
+.subject {
+    background-color: rgb(249, 161, 80);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    align-self: center;
+    display: block;
+    font-family: "Sabon", sans-serif;
+}
+
 /*pildid*/
 .taks {
     display: block;
