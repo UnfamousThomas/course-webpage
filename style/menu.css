@@ -33,6 +33,7 @@ body {
 .selected {
     font-weight: bold;
 }
+
 /* Burger menu */
 .menu-container span {
     display: block;
@@ -44,8 +45,8 @@ body {
     border-radius: 3px;
     z-index: 1;
     transform-origin: 4px 0px;
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-    background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
     opacity 0.55s ease;
 }
 
@@ -81,7 +82,7 @@ body {
         /* to stop flickering of text in safari */
         transform-origin: 0% 0%;
         transform: translateX(0%);
-        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
     }
 
     .menu-container input:checked ~ .menu {

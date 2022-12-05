@@ -42,7 +42,7 @@ a:link.normal, a:visited.normal {
     text-align: center;
     align-self: center;
     display: block;
-    font-family: "Sabon", sans-serif;  
+    font-family: "Sabon", sans-serif;
 }
 
 .subject {
@@ -62,6 +62,7 @@ a:link.normal, a:visited.normal {
     margin-right: auto;
     width: 50%;
 }
+
 .clearfix::after {
     content: "";
     clear: both; /* Seda ei kasutata hetkel */
@@ -72,6 +73,7 @@ a:link.normal, a:visited.normal {
 .br1 {
     margin: 2%;
 }
+
 .br2 {
     margin: 4%;
 }
