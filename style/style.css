@@ -88,4 +88,5 @@ a:link.normal, a:visited.normal {
 
 img {
     border: 7px solid #3fa8d9;
+    cursor: pointer;
 }
