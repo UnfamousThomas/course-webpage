@@ -6,6 +6,7 @@ var images = []
 pildi vahetusega, mis võrdub 6000 mikrosekundit.*/
 var time = 1000 * 6;
 
+var to;
 //Kui on id "tom-slide" olemas siis vali need pildid
 if (document.getElementById("tom-slide") != null) {
     //Piltide asukoha kausta adress
@@ -59,9 +60,11 @@ if (document.getElementById("tom-slide") != null) {
 //Kutsub funktsiooni
 changeSlide();
 
+//Registreerib event handleri, ehk siis kui vajutad slaidide peale, siis kutsub funktsiooni handleClick
+document.getElementById("slide").addEventListener("click", handleClick)
+
 
 //Tühi funktsioon, mis alustab piltide vahetamist
-
 function changeSlide() {
     //Leia lehelt element mille id on "slide" ning vaheta selle src väärtus listi alusel
     document.getElementById("slide").src = images[i];
@@ -75,6 +78,19 @@ function changeSlide() {
     }
 
     //Oota time väärtus (mikrosekundites) ennem kui jooksutad changeSlide() uuesti et vahetada pilti
-    setTimeout("changeSlide()", time)
+    to = setTimeout("changeSlide()", time)
+
 }
+
+
+function handleClick(event) {
+    //Eemaldab varem schedulitud pildi vahetuse
+    clearTimeout(to)
+
+    //Vahetab pilti
+    changeSlide()
+}
+
+
+
 
