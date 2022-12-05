@@ -5,12 +5,34 @@
 <head>
     <title>Thomas</title>
     <link href="style/style.css" rel="stylesheet">
+    <link href="style/menu.css" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/sabon" rel="stylesheet">
 
     <script src="js/slide.js" defer></script>
+    <script>
+        function updatemenu() {
+            if (document.getElementById('responsive-menu').checked === true) {
+                document.getElementById('menu').style.borderBottomRightRadius = '0';
+                document.getElementById('menu').style.borderBottomLeftRadius = '0';
+            }else{
+                document.getElementById('menu').style.borderRadius = '42px';
+            }
+        }
+
+    </script>
 </head>
 
 <body>
+
+<nav id='menu'>
+    <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+    <ul>
+        <li><a href='./meist.html'>Meist</a></li>
+        <li><a href='./merlin.html'>Merlin</a></li>
+        <li><a href='./mia.html'>Mia</a></li>
+        <li><a href='./tom.html'>Thomas</a></li>
+    </ul>
+</nav>
 
 <div class="valge-kast">
     <h1><u>Thomase lemmikloomad</u></h1>
