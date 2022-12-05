@@ -83,3 +83,7 @@ a:link.normal, a:visited.normal {
     width: 28%;
     height: 28%;
 }
+
+img {
+    border: 7px solid #3fa8d9;
+}

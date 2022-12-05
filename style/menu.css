@@ -28,17 +28,6 @@ body {
     color: #fdfdfd;
 }
 
-.menu-container input {
-    display: block;
-    width: 35px;
-    height: 25px;
-    margin: 0;
-    position: absolute;
-    cursor: pointer;
-    opacity: 0; /* hide this */
-    z-index: 2; /* and place it over the hamburger */
-    -webkit-touch-callout: none;
-}
 .selected {
     font-weight: bold;
 }
@@ -58,28 +47,6 @@ body {
     opacity 0.55s ease;
 }
 
-.menu-container span:first-child {
-    transform-origin: 0% 0%;
-}
-
-.menu-container span:nth-child(3) {
-    transform-origin: 0% 100%;
-}
-
-.menu-container input:checked ~ span {
-    opacity: 1;
-    transform: rotate(45deg) translate(3px,-1px);
-    background: #0275ea;
-}
-
-.menu-container input:checked ~ span:nth-child(4) {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
-}
-
-.menu-container input:checked ~ span:nth-child(3) {
-    transform: rotate(-45deg) translate(-5px,11px);
-}
 
 .menu ul {
     list-style: none;
