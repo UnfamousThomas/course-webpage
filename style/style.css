@@ -75,3 +75,11 @@ a:link, a:visited {
 .br2 {
     margin: 4%;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28%;
+    height: 28%;
+}
