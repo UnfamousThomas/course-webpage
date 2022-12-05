@@ -31,11 +31,11 @@ p {
 }
 
 /*lingid-nupud*/
-a:hover, a:active {
+a:hover.normal, a:active.normal {
     background-color: rgb(63, 168, 217);
 }
 
-a:link, a:visited {
+a:link.normal, a:visited.normal {
     background-color: rgb(63, 168, 217, 0.5);;
     color: white;
     padding: 14px 25px;
