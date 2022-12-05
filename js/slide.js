@@ -14,7 +14,7 @@
     } else if (document.getElementById("mia-slide") != null) { //Kui on Mia slaidid siis vali need pildid
         images[0] = 'assets/imgs/Mia/nora1.jpg';
         images[1] = 'assets/imgs/Mia/nora2.jpg';
-        images[2] = 'assets/imgs/Mia/nora3.jpg';
+        images[2] = 'assets/imgs/Mia/nora3_uus.jpg';
         images[3] = 'assets/imgs/Mia/nora4.jpg';
     } else if (document.getElementById("merlin-slide") != null) { //Kui on Merlini slaidid siis vali need pildid
         var source = 'assets/imgs/Merlin/'
