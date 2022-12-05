@@ -32,11 +32,11 @@ p {
 
 /*lingid-nupud*/
 a:hover, a:active {
-    background-color: rgb(255, 128, 0);
+    background-color: rgb(63, 168, 217);
 }
 
 a:link, a:visited {
-    background-color: rgb(249, 161, 80);
+    background-color: rgb(63, 168, 217, 0.5);;
     color: white;
     padding: 14px 25px;
     text-align: center;
@@ -46,7 +46,7 @@ a:link, a:visited {
 }
 
 .subject {
-    background-color: rgb(249, 161, 80);
+    background-color: rgb(63, 168, 217);
     color: white;
     padding: 14px 25px;
     text-align: center;
@@ -74,4 +74,12 @@ a:link, a:visited {
 }
 .br2 {
     margin: 4%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28%;
+    height: 28%;
 }
