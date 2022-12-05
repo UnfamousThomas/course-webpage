@@ -23,9 +23,27 @@
         images[1] = source + 'kity.jpeg'
         images[2] = source + 'koos.jpeg'
         images[3] = source + 'nurr.jpeg'
+    } else if (document.getElementById("all-slide") != null) {
+        var source = 'assets/imgs/Merlin/'
+        images[0] = source + 'cleo.jpeg'
+        images[1] = source + 'kity.jpeg'
+        images[2] = source + 'koos.jpeg'
+        images[3] = source + 'nurr.jpeg'
+        source = 'assets/imgs/Thomas/'
+        images[4] = source + 'Simba1.jpg';
+        images[5] = source + 'Simba2.jpg';
+        images[6] = source + 'Tripsu1.jpg';
+        images[7] = source + 'Tripsu2.jpg';
+        images[8] = source + 'Trispu3.jpg';
+        images[9] = source + 'Tripsu4.jpg';
+        source = 'assets/imgs/Mia/'
+        images[10] = source + 'nora1.jpg';
+        images[11] = source + 'nora2.jpg';
+        images[12] = source + 'nora3.jpg';
+        images[13] = source + 'nora4.jpg';
     }
 
-        changeSlide(); //Alusta slaidide vahetamist
+    changeSlide(); //Alusta slaidide vahetamist
 
 //Kuidas panna pilte:
 //1. Lisa pildid assets/imgs/nimi alla
