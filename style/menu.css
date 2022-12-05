@@ -39,7 +39,9 @@ body {
     z-index: 2; /* and place it over the hamburger */
     -webkit-touch-callout: none;
 }
-
+.selected {
+    font-weight: bold;
+}
 /* Burger menu */
 .menu-container span {
     display: block;
