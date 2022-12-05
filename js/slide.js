@@ -1,4 +1,7 @@
-//Muutuja et leht teaks mis pildi peal ta hetkel on
+//Autor Thomas Palts, 2022
+//Kirjeldus: Aitab teha lihtsaid pildigaleriisid, mis vahetavad ise x aja tagant ning ka millele saab vajutada et pilti vahetada.
+
+// Muutuja et leht teaks mis pildi peal ta hetkel on
 var i = 0
 //Nimekiri piltide allikatest
 var images = []
