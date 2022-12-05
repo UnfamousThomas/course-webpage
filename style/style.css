@@ -1,19 +1,92 @@
+/*importisin uue fondi*/
+@import url('https://fonts.cdnfonts.com/css/sabon');
+
 body {
-    background-color: rgb(228, 226, 226);
+    background-color: rgb(118, 176, 211);
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Sabon", sans-serif;
     text-align: center;
 }
 
 h2 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Sabon", sans-serif;
     text-align: center;
+    font-size: medium;
 }
 
 p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Sabon", sans-serif;
     color: rgb(84, 83, 83);
     text-align: center;
+}
+
+/*see on taustaks lehekülje tekstile*/
+.valge-kast {
+    background-color: white;
+    color: black;
+    padding: 5%;
+    margin: 4%;
+}
+
+/*lingid-nupud*/
+a:hover.normal, a:active.normal {
+    background-color: rgb(63, 168, 217);
+}
+
+a:link.normal, a:visited.normal {
+    background-color: rgb(63, 168, 217, 0.5);;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    align-self: center;
+    display: block;
+    font-family: "Sabon", sans-serif;
+}
+
+.subject {
+    background-color: rgb(63, 168, 217);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    align-self: center;
+    display: block;
+    font-family: "Sabon", sans-serif;
+}
+
+/*pildid*/
+.taks {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both; /* Seda ei kasutata hetkel */
+    display: table;
+}
+
+/*vahed teksti ja piltide vahel*/
+.br1 {
+    margin: 2%;
+}
+
+.br2 {
+    margin: 4%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28%;
+    height: 28%;
+}
+
+img {
+    border: 7px solid #3fa8d9;
+    cursor: pointer;
 }
