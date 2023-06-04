@@ -3,17 +3,5 @@
 ## Kirjeldus
 
 Meie eriala veebilehe raames loome enda koduloomi tutvustava veebilehe.
-
-## Alamlehed:
-
-- Merlini koduloomad
-- Mia koduloomad
-- Thomase koduloomad
-- "About Us" // Meist leht
-
-## Autorid
-
-- Thomas Palts
-- Mia Märtson
-- Merlin Nõmm
+A webproject created for a course. Introduces our animals (in Estonian).
 
